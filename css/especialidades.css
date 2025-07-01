@@ -1,0 +1,100 @@
+.links-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.links-nav a {
+  border-bottom: 2px solid #00cad1;
+}
+
+.links-nav a:hover{
+  color: #007d81;
+}
+
+h1 {
+  color: #5f5f5f;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.35rem;
+  padding: 20px 20px 0px 20px;
+}
+
+.conteudo-principal-especialidade {
+  justify-content: center;
+}
+
+/* Titulos Tabela */
+.titulo-tabela-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo-tabela {
+  padding: 30px 0px 10px 0px;
+  text-align: center;
+  max-width: 65ch;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #737373;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.titulo-tabela p {
+  margin: 10px 0px;
+  color: #525252;
+  letter-spacing: 0.25px;
+}
+
+/* Tabela */
+.img-especialidade {
+  max-width: 250px;
+  background-size: cover;
+}
+
+.tabela-container {
+  display: flex;
+  padding: 0px 30px 20px 30px;
+}
+
+.tabela {
+  width: 100%;
+  border-spacing: 0;
+}
+
+thead {
+  background-color: #00cad1;
+  text-align: left;
+}
+
+thead th {
+  padding: 10px 0px 10px 0px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.dias {
+  padding-left: 10px;
+}
+
+tbody td {
+  padding: 20px 0px;
+}
+
+tbody{
+  color: #4b4b4b;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #cdcdcd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}

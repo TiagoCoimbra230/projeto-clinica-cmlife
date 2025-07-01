@@ -1,0 +1,187 @@
+/* Global Styles */
+.container-largura {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+body{
+  height: 2000px;
+}
+
+.titulo-container{
+  margin: 30px 0px 10px 0px;
+  text-align: center;
+  max-width: 65ch;
+  margin-bottom: 10px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+
+.content p{
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #737373;
+}
+
+.destaque{
+  font-weight: bold;
+}
+
+/* MENU */
+.header-bg {
+  background-color: #00cad1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.logo {
+  max-width: 120px;
+}
+
+.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+}
+
+.header nav a {
+  color: #fff;
+  font-weight: bold;
+  transition: 0.1s;
+  padding: 5px;
+}
+
+.header nav a:hover {
+  color: #004b4c;
+}
+
+/* Banner */
+.banner-bg{
+  background-image: url(../img/recepcao.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 550px;
+}
+
+.banner-titulo-container{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.banner-titulo{
+  font-size: 2.25rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+/* Sobre */
+
+.sobre h2{
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sobre-conteudo{
+  display: flex;
+  align-items: center;
+}
+
+.sobre-encontrar{
+  padding-top: 40px;
+}
+
+.sobre-lista{
+  list-style: circle;
+  margin: 20px 30px;
+  font-size: 0.875rem;
+}
+
+/* Serviços Clínica */
+.servicos-container{
+  display: flex;
+  gap: 30px;
+  padding: 0px 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.servicos-card{
+  max-width: 250px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+.servicos-card p{
+  padding: 10px;
+}
+
+.botao{
+  background-color: #00cad1;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+
+.botao:hover{
+  background-color: #00878b;
+}
+
+/* Contato */
+.contato p{
+  margin-bottom: 10px;
+}
+
+/* Mapa */
+.mapa-container{
+  text-align: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0px 40px 40px 40px;
+}
+
+.mapa{
+  width: 100%;
+}
+
+/* Rodape */
+.rodape-bg{
+  background-color: #106f72;
+}
+
+.rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.rodape-conteudo{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+

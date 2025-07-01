@@ -1,0 +1,73 @@
+/* HOME */
+@media(max-width: 700px){
+  .sobre-conteudo{
+    padding-left: 60px;
+  }
+  .sobre-conteudo img{
+    display: none;
+  }
+  .servicos-container{
+    flex-direction: column;
+  }
+  
+}
+
+@media(max-width: 520px){
+  .header{
+    flex-direction: column;
+  }
+  .header nav ul{
+    border-top: 1px solid black;
+    padding: 10px 0px;
+    gap: 40px;
+  }
+  .banner-titulo{
+    font-size: 2rem;
+  }
+  .content p{
+    letter-spacing: 0px;
+  }
+  .botao{
+    padding: 10px;
+  }
+}
+@media(max-width: 320px){
+  .header{
+    flex-direction: column;
+  }
+  .header nav ul{
+    border-top: 1px solid black;
+    padding: 10px 0px;
+    gap: 15px;
+    font-size: 0.875rem;
+  }
+  .banner-titulo{
+    font-size: 1.5rem;
+  }
+  .sobre-encontrar h4{
+    padding: 0px 30px;
+  }
+  .sobre-conteudo{
+    padding: 0px;
+  }
+}
+
+/* ESPECIALIDADES */
+@media(max-width: 760px){
+  .img-especialidade{
+    display: none;    
+  }
+}
+@media(max-width: 520px){
+  thead{
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  tbody td{
+    word-wrap: initial;
+    font-size: 0.875rem;
+  }
+  .titulo-tabela p{
+    font-size: 0.875rem;
+  }
+}
